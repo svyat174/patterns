@@ -45,5 +45,5 @@ clientBridge(abstraction)
 console.log('');
 
 implementation = new ConcreteImplementationB()
-abstraction = new Abstraction(implementation)
+abstraction = new ExtendedAbstraction(implementation)
 clientBridge(abstraction)
