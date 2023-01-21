@@ -35,8 +35,8 @@ class CDInsuranceCreate extends CreateInsurance {
   }
 }
 
-function client(cretor: CreateInsurance) {
-  console.log(cretor.someOperations());
+function client(creator: CreateInsurance) {
+  console.log(creator.someOperations());
 }
 
 client(new ABInsuranceCreate());
