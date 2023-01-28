@@ -21,7 +21,7 @@ class ConcreteMediator implements IMediator {
         }
 
         if(event === 'D') {
-            console.log('Mediator reacts on A and triggers following operations:');
+            console.log('Mediator reacts on D and triggers following operations:');
             this.component1.doB()
             this.component2.doC()
         }
